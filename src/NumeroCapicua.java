@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * Clase que comprueba si un numero es Capicua
+ * Si lo es nos lo dice
+ * Si no lo es no dice que le falta para serlo
+ * @author Jacinto
+ *
+ */
+
 public class NumeroCapicua {
 
 	public static int darLaVuelta (int num) {
