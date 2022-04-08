@@ -9,6 +9,12 @@ import java.util.Scanner;
  */
 
 public class NumeroCapicua {
+	
+	/**
+	 * Metodo que da la vuelta a un numero
+	 * @param num a darle la vuelta
+	 * @return numero al reves
+	 */
 
 	public static int darLaVuelta (int num) {
 		String numero = ""+num;
