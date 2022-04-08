@@ -10,6 +10,12 @@ import java.util.Scanner;
 
 public class NumeroCapicua {
 	
+   /**
+    * Metodo para dar la vuelta a un numero
+    * @param num a dar la vuelta
+    * @return numero al reves
+    */
+	
 
 	public static int darLaVuelta (int num) {
 		String numero = ""+num;
@@ -23,6 +29,12 @@ public class NumeroCapicua {
 		return resu;
 	}
 	
+	/**
+	 * Comprueba si un numero es capicua
+	 * @param num a comprobar
+	 * @return verdadero si lo es y falso en caso contrario
+	 */
+	
 	public static boolean esCapicua(int num) {
 		int numAlReves = darLaVuelta(num);
 		if (num == numAlReves) {
@@ -32,12 +44,23 @@ public class NumeroCapicua {
 		}
 	}
 	
+	/**
+	 * Método que crea un Numero Capicua
+	 * @param num a crear su capicua
+	 * @return el numero creado como capicua
+	 */
+	
 	public static String crearCapicua (int num) {
 		int numAlReves = darLaVuelta(num);
 		String capicua = "" + num + numAlReves;
 		int resu = Integer.parseInt(capicua);
 		return capicua;
 	}
+	
+	/**
+	 * Método principal
+	 * @param args
+	 */
 	
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
